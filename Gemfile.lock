@@ -168,10 +168,6 @@ GEM
     regexp_parser (2.6.0)
     reline (0.3.1)
       io-console (~> 0.5)
-    rename (1.0.8)
-      activesupport
-      rails (>= 3.0.0)
-      thor (>= 0.19.1)
     rexml (3.2.5)
     rubyzip (2.3.2)
     selenium-webdriver (4.5.0)
@@ -231,7 +227,6 @@ DEPENDENCIES
   pg (~> 1.4.3)
   puma (~> 5.0)
   rails (~> 7.0.3, >= 7.0.3.1)
-  rename (~> 1.0, >= 1.0.8)
   selenium-webdriver
   spring (~> 4.1)
   spring-watcher-listen (~> 2.1)
