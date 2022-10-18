@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="">
 <head>
   <title><%= full_title(yield(:title)) %></title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -9,8 +9,12 @@
   <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
   <%= javascript_importmap_tags %>
 </head>
-
 <body>
-<%= yield %>
+<%= render 'layouts/rails_default' %>
+<!--```-->
+<div class="nav">foobar</div>
+<div id="profile">foobar</div>
+<div name="yo"></div>
+<!--```-->
 </body>
 </html>
