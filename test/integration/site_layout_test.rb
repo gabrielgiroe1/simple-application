@@ -13,9 +13,9 @@ class SiteLayoutTest < ActionDispatch::IntegrationTest
     assert_select "a[href=?]" , contact_path
     assert_select "div"
     # assert_select "div", "foobar"
-    assert_select "div.nav"
-    assert_select "div#profile"
-    assert_select "div[name=yo]"
+    # assert_select "div.nav"
+    # assert_select "div#profile"
+    # assert_select "div[name=yo]"
     assert_select "a[href=?]", '/', count: 1
     assert_select "a[href=?]", '/', text: "Home"
     get contact_path
