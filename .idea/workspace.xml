@@ -6,11 +6,14 @@
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/9d521265-f847-48a6-a5fe-10a1a52ae0e8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9d521265-f847-48a6-a5fe-10a1a52ae0e8.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/simple_application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/simple_application.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/layouts/_rails_default.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/_rails_default.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20221021094758_add_index_to_user_email.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20221021174024_add_password_digest_to_users.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/integration/site_layout_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/site_layout_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="INCOMING_CHECK_STRATEGY" value="Never" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
@@ -40,17 +44,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Project.color&quot;: &quot;0d3b1a&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/giroe/RubymineProjects/simple_application&quot;,
-    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Project.color": "0d3b1a",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "false",
+    "last_opened_file_path": "/Users/georgelgabrielgiroe/developer/simple-application",
+    "nodejs_package_manager_path": "npm",
+    "ruby.rails.projectView.checked": "true",
+    "settings.editor.selected.configurable": "vcs.Git"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/assets/images" />
@@ -268,19 +274,43 @@
       <workItem from="1666766603843" duration="33000" />
       <workItem from="1668785221641" duration="610000" />
       <workItem from="1669463786288" duration="707000" />
-      <workItem from="1669535139409" duration="6043000" />
+      <workItem from="1669535139409" duration="18193000" />
+      <workItem from="1669573440641" duration="1510000" />
+      <workItem from="1669716379860" duration="3246000" />
+      <workItem from="1669798723401" duration="314000" />
+      <workItem from="1669804978790" duration="163000" />
+      <workItem from="1669814132641" duration="8630000" />
+      <workItem from="1669834295089" duration="5000" />
+      <workItem from="1669834315721" duration="2494000" />
+      <workItem from="1669887508504" duration="6554000" />
+      <workItem from="1669903461354" duration="6139000" />
+      <workItem from="1669969565378" duration="2332000" />
+      <workItem from="1669971908230" duration="123000" />
+      <workItem from="1669972032349" duration="8995000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/simple_application@test_password_should_have_minimum_length.rcov" NAME="test_password_should_have_minimum_length Coverage Results" MODIFIED="1669537129491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="simple_application" />
-    <SUITE FILE_PATH="coverage/simple_application@test_should_be_valid.rcov" NAME="test_should_be_valid Coverage Results" MODIFIED="1666376768009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="simple_application" />
+    <SUITE FILE_PATH="coverage/simple_application@test_email_should_be_present.rcov" NAME="test_email_should_be_present Coverage Results" MODIFIED="1666376784612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="simple_application" />
+    <SUITE FILE_PATH="coverage/simple_application@db_migrate.rcov" NAME="db:migrate Coverage Results" MODIFIED="1669813401545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="simple_application" />
+    <SUITE FILE_PATH="coverage/simple_application@test__simple_application.rcov" NAME="test: simple_application Coverage Results" MODIFIED="1665212452043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="simple_application" />
     <SUITE FILE_PATH="coverage/simple_application@test_email_address_should_be_saved_as_lower_case.rcov" NAME="test_email_address_should_be_saved_as_lower-case Coverage Results" MODIFIED="1669537134388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="simple_application" />
     <SUITE FILE_PATH="coverage/simple_application@test_name_should_be_present.rcov" NAME="test_name_should_be_present Coverage Results" MODIFIED="1666376776932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="simple_application" />
-    <SUITE FILE_PATH="coverage/simple_application@test__simple_application.rcov" NAME="test: simple_application Coverage Results" MODIFIED="1665212452043" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="simple_application" />
-    <SUITE FILE_PATH="coverage/simple_application@test_email_should_be_present.rcov" NAME="test_email_should_be_present Coverage Results" MODIFIED="1666376784612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="simple_application" />
+    <SUITE FILE_PATH="coverage/simple_application@test_should_be_valid.rcov" NAME="test_should_be_valid Coverage Results" MODIFIED="1666376768009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="simple_application" />
   </component>
 </project>
