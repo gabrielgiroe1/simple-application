@@ -33,3 +33,4 @@ class UsersSignupTest < ActionDispatch::IntegrationTest
     assert_not flash.nil?
   end
 end
+§
