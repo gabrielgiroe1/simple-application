@@ -77,7 +77,3 @@ group :test do
   gem 'minitest', '~> 5.16.3'
   gem 'minitest-reporters', '~> 1.5'
 end
-
-gem :production do
-  gem "sqlite3", "~> 1.4"
-end
