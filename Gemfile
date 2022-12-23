@@ -51,6 +51,8 @@ gem "bootsnap", require: false
 gem 'bootstrap-sass', '~> 3.4.1'
 gem 'rails-controller-testing', '~> 1.0.5'
 gem 'bcrypt', '~>  3.1.18'
+gem 'webpacker', '~> 5.4.3'
+gem 'jquery-rails', '~> 4.5.1'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
