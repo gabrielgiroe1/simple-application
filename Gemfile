@@ -53,6 +53,9 @@ gem 'rails-controller-testing', '~> 1.0.5'
 gem 'bcrypt', '~>  3.1.18'
 gem 'webpacker', '~> 5.4.3'
 gem 'jquery-rails', '~> 4.5.1'
+gem 'faker', '~> 3.1'
+gem 'will_paginate', '~> 3.3.1'
+gem 'bootstrap-will_paginate', '~> 1.0'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
