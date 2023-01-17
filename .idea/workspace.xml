@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f733fe8e-a80a-4393-be7f-9283bcdc835f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0e545dd7-cffe-415a-ac07-f09a18d100d8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0e545dd7-cffe-415a-ac07-f09a18d100d8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9d521265-f847-48a6-a5fe-10a1a52ae0e8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9d521265-f847-48a6-a5fe-10a1a52ae0e8.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/mailers/user_mailer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/mailers/user_mailer.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/sessions/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/sessions/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_error_messages.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_error_messages.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/user_mailer/password_reset.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/user_mailer/password_reset.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/user_mailer/password_reset.text.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/user_mailer/password_reset.text.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/mailers/previews/user_mailer_preview.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/mailers/user_mailer_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/mailers/user_mailer_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,21 +37,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Project.color&quot;: &quot;0d3b1a&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/georgelgabrielgiroe/developer/simple-application/app/assets/images&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Applications/RubyMine.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Project.color": "0d3b1a",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "full.screen.before.presentation.mode": "false",
+    "last_opened_file_path": "/Users/georgelgabrielgiroe/developer/simple-application/app/assets/images",
+    "nodejs_package_manager_path": "npm",
+    "ruby.rails.projectView.checked": "true",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "ts.external.directory.path": "/Applications/RubyMine.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/assets/images" />
@@ -325,6 +319,8 @@
       <workItem from="1673695192480" duration="1579000" />
       <workItem from="1673781147417" duration="5637000" />
       <workItem from="1673869588468" duration="8093000" />
+      <workItem from="1673899017069" duration="5902000" />
+      <workItem from="1673952089202" duration="4130000" />
     </task>
     <servers />
   </component>
