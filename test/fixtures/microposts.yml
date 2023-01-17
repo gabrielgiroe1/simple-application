@@ -2,12 +2,8 @@
 
 one:
   content: MyText
-  created_at: 10.minutes.ago
-  updated_at: 10.minutes.ago
   user: matei
 
 two:
   content: MyText
-  created_at: 10.minutes.ago
-  updated_at: 10.minutes.ago
   user: matei

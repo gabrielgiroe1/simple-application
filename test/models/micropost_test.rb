@@ -4,11 +4,11 @@ class MicropostTest < ActiveSupport::TestCase
 
   def setup
     @user = users(:matei)
-    @micropost = @user.microposts.new(connect: "Lorem ipsum", user_id: @user.id)
+    @micropost = @user.microposts.new(content: "Lorem ipsum", user_id: @user.id)
   end
 
   test "should be valid" do
-    asset @micropost.valid?
+    assert @micropost.valid?
   end
 
   test "user id should be present" do
@@ -16,3 +16,4 @@ class MicropostTest < ActiveSupport::TestCase
     assert_not @micropost.valid?
   end
 end
+ 
