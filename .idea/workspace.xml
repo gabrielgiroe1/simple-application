@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f733fe8e-a80a-4393-be7f-9283bcdc835f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0e545dd7-cffe-415a-ac07-f09a18d100d8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/0e545dd7-cffe-415a-ac07-f09a18d100d8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9d521265-f847-48a6-a5fe-10a1a52ae0e8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9d521265-f847-48a6-a5fe-10a1a52ae0e8.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/migrate/20221130134216_add_table_microposts.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -320,7 +318,7 @@
       <workItem from="1673781147417" duration="5637000" />
       <workItem from="1673869588468" duration="8093000" />
       <workItem from="1673899017069" duration="5902000" />
-      <workItem from="1673952089202" duration="4130000" />
+      <workItem from="1673952089202" duration="7463000" />
     </task>
     <servers />
   </component>
