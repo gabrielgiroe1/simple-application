@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f733fe8e-a80a-4393-be7f-9283bcdc835f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/simple_application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/simple_application.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/microposts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/microposts_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/micropost.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/micropost.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/microposts/_micropost.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/microposts/_micropost.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/shared/_micropost_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/shared/_micropost_form.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -332,7 +325,8 @@
       <workItem from="1674318256968" duration="16925000" />
       <workItem from="1674382059094" duration="9292000" />
       <workItem from="1674406811775" duration="10726000" />
-      <workItem from="1674647956775" duration="1454000" />
+      <workItem from="1674647956775" duration="2167000" />
+      <workItem from="1674741502990" duration="4316000" />
     </task>
     <servers />
   </component>
