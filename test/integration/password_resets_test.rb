@@ -55,7 +55,7 @@ class PasswordResetsTest < ActionDispatch::IntegrationTest
     #                 user: { password: "foooo",
     #                         password_confirmation: "notthesame" } }
     # assert_select 'div#error_explanation'
-
+    #
     # # Empty password
     # patch password_reset_path(user.reset_token),
     #       params: { email: user.email,
