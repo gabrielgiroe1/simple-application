@@ -1,10 +1,6 @@
 require "test_helper"
 
 class UserTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
-
   def setup
     @user = User.new( name: "Gabi", email: "gabi@gmail.com",
                       password: "foobar", password_confirmation: "foobar")
@@ -86,6 +82,36 @@ class UserTest < ActiveSupport::TestCase
     @user.microposts.create!(content: "something")
     assert_difference 'Micropost.count', -1 do
       @user.destroy
+    end
+  end
+
+  test "should follow and unfollow a user" do
+    matei = users(:matei)
+    gigi = users(:gigi)
+    assert_not matei.following?(gigi)
+    matei.follow(gigi)
+    assert matei.following?(gigi)
+    assert gigi.followers.include?(matei)
+    matei.unfollow(gigi)
+    assert_not matei.following?(gigi)
+  end
+
+  test"feed should have the right posts" do
+    matei= users(:matei)
+    gigi = users(:gigi)
+    lana= users(:lana)
+    #Post from followed user
+    lana.microposts.each do |post_following|
+      assert matei.feed.include?(post_following)
+    end
+
+    #Post from self
+    matei.microposts.each do |post_self|
+      assert matei.feed.include?(post_self)
+    end
+    #Post from unfollowed user
+    gigi.microposts.each do |post_unfollowed|
+      assert_not matei.feed.include?(post_unfollowed)
     end
   end
 end

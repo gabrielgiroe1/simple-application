@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f733fe8e-a80a-4393-be7f-9283bcdc835f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9d521265-f847-48a6-a5fe-10a1a52ae0e8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9d521265-f847-48a6-a5fe-10a1a52ae0e8.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/relationships_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/relationships_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/_follow.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/_follow.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/users/_unfollow.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/_unfollow.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/fixtures/relationships.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/relationships.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/integration/following_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/following_test.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/models/user_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/user_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +52,7 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Applications/RubyMine.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;
   }
 }</component>
@@ -328,6 +335,13 @@
       <workItem from="1674406811775" duration="10726000" />
       <workItem from="1674647956775" duration="2167000" />
       <workItem from="1674741502990" duration="6871000" />
+      <workItem from="1674899970289" duration="6883000" />
+      <workItem from="1674999146071" duration="6548000" />
+      <workItem from="1675076151373" duration="12119000" />
+      <workItem from="1675103893622" duration="2805000" />
+      <workItem from="1675157313261" duration="7951000" />
+      <workItem from="1675197428778" duration="4102000" />
+      <workItem from="1675244534623" duration="5423000" />
     </task>
     <servers />
   </component>
