@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f733fe8e-a80a-4393-be7f-9283bcdc835f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/relationships_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/relationships_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/user.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/_follow.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/_follow.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/users/_unfollow.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users/_unfollow.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/fixtures/relationships.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test/fixtures/relationships.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/integration/following_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/integration/following_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/user_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/user_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -341,7 +335,7 @@
       <workItem from="1675103893622" duration="2805000" />
       <workItem from="1675157313261" duration="7951000" />
       <workItem from="1675197428778" duration="4102000" />
-      <workItem from="1675244534623" duration="5423000" />
+      <workItem from="1675244534623" duration="9762000" />
     </task>
     <servers />
   </component>
